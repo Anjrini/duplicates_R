@@ -2,7 +2,7 @@ rm(list = ls())
 
 setwd("C:/Users/anjrini/Desktop/r/r2")
 
-source("duplicates.r")
+source("duplicates_function.r")
 
 df<- read.csv("test.csv",header = FALSE)
 
