@@ -26,7 +26,6 @@ dups<-function(df,n){
       df[i+1,l]<-df[i,l]+1
     }
     else if(df[i,n]==df[i+1,n] & df[i,n]==df[i-1,n]){
-      #df[i,l]<-df[i-1,l]+1
       df[i+1,l]<-df[i,l]+1
     }
   }
