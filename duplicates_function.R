@@ -1,7 +1,7 @@
 # Mustafa Anjrini 09.02.2025
 # R script to get the duplicates and unique values
 
-# provide the data frame df as well as the number of the column
+# provide the data frame df as well as the location of the column
 dups<-function(df,n){ 
   
   df<-as.data.frame(df)
