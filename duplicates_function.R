@@ -1,8 +1,9 @@
 # Mustafa Anjrini 09.02.2025
 # R script to get the duplicates and unique values
 
+# provide the data frame df as well as the number of the column
 dups<-function(df,n){ 
-  # provide the dataframe df as well as the number of the column
+  
   df<-as.data.frame(df)
   df$countme<-0
   df[is.na(df[,n]),n]<-"NA"
